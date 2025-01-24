@@ -1,0 +1,152 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Kanit;
+}
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+:root {
+    --my-white: white;
+    --my-purple: #6C63FF;
+    --my-black: black;
+}
+
+.dod {
+    --my-white: black;
+    --my-purple: #6C63FF;
+    --my-black: white;
+}
+
+h1 {
+    margin: 50px 0 25px 0;
+    color: var(--my-black);
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-color: var(--my-white);
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 595px;
+    height: 38px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 5px;
+    border: 1px solid var(--my-purple);
+    opacity: 0px;
+    font-size: 20px;
+}
+
+.search>button {
+    height: 38px;
+    border-radius: 5px;
+
+}
+
+#btn-send {
+    width: 64px;
+    height: 38px;
+    border-radius: 5px;
+
+}
+
+#btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 5px;
+
+}
+
+button {
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    background-color: #6C63FF;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.06);
+
+}
+
+button:active {
+    transform: scale(0.96);
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    right: 20px;
+    cursor: text;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: var(--my-purple);
+}
+
+label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.checked {
+    display: flex;
+    width: 26px;
+    height: 26px;
+    border-radius: 2px;
+    border: 1px;
+    border-radius: 2px;
+
+}
+
+tr {
+    width: 525px;
+    height: 65px;
+    border: 1px;
+    display: flex;
+    border-bottom: 1px solid #6C63FF;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ii {
+    display: flex;
+    gap: 10px;
+}
+
+i {
+    color: white;
+}
+
+.texts {
+    text-decoration: line-through;
+}
+
+.fa-trash {
+    cursor: pointer;
+    color: var(--my-black);
+}
+
+.fa-pen {
+    cursor: pointer;
+    color: var(--my-black);
+}
